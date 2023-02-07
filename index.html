@@ -9,6 +9,43 @@
 <body>
     <!-- Create a basic html calculator with buttons for each digit, each of the above
          functions, an "equals" key and a "clear" key-->
+    <div class="main">
+        <div class="display">
+            <div class="past">
+                <p id="past"></p>
+            </div>
+            <div class="current">
+                <p id="current"></p>
+            </div>
+        </div>
+        <!-- Have all calculator buttons here -->
+        <div class="content">
+            <div class="clear">
+                <button class="btn clear" onclick="clear()">clear</button>
+            </div>
+            <div class="functions">
+                <button class="btn num" onclick="input(7)">7</button>
+                <button class="btn num" onclick="input(8)">8</button>
+                <button class="btn num" onclick="input(9)">9</button>
+                <button class="btn" onclick="">/</button>
     
+                <button class="btn num" onclick="input(4)">4</button>
+                <button class="btn num" onclick="input(5)">5</button>
+                <button class="btn num" onclick="input(6)">6</button>
+                <button class="btn" onclick="">*</button>
+    
+                <button class="btn num" onclick="input(1)">1</button>
+                <button class="btn num" onclick="input(2)">2</button>
+                <button class="btn num" onclick="input(3)">3</button>
+                <button class="btn" onclick="">-</button>
+    
+                <button class="btn num" onclick="input(0)">0</button>
+                <button class="btn num" onclick="">.</button>
+                <button class="btn num" onclick="">=</button>
+                <button class="btn" onclick="">+</button>
+            </div>
+        </div>
+        
+    </div>
 </body>
 </html>

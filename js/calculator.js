@@ -28,3 +28,21 @@ const operate = function(op, n1, n2) {
     else
         console.log("Please enter a valid operator as the first parameter!");
 }
+
+function clear() {
+    console.log("called");
+    let display = document.getElementById("current");
+    display.innerHTML = '';
+
+    display = document.getElementById("past");
+    display.innerHTML = "";
+
+    console.log("done");
+}
+
+// When button clicked, take that number and add it to display.
+function input(num) {
+    let display = document.getElementById("current");
+    display.innerHTML = num;
+}
+
