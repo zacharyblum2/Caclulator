@@ -29,7 +29,7 @@ const operate = function(op, n1, n2) {
         console.log("Please enter a valid operator as the first parameter!");
 }
 
-function clear() {
+function callClear() {
     console.log("called");
     let display = document.getElementById("current");
     display.innerHTML = '';

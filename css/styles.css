@@ -67,3 +67,19 @@ body {
     background-color: white;
     color: black;
 }
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.past {
+    margin: 0 10px 0;
+    text-align: right;
+}
+
+.current {
+    margin: 0 10px 0;
+    text-align: right;
+}
